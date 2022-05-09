@@ -46,5 +46,4 @@ function total(subTotal) {
     alert("Gracias por tu compra");
 }
 
-//Empieza la app
 start();
