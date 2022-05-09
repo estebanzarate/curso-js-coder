@@ -13,3 +13,7 @@
 
 ### ACTIVIDAD 4: Registro de personas
   - Solicitar al usuario cinco (5) nombres pertenecientes a integrantes de una familia. Luego, concatenar dichas entradas y efectuar una salida por alerta.
+
+### ACTIVIDAD 5: Descuentos
+  - Solicitar al usuario uno o más precios.
+  - Luego, efectuar un descuento en porcentajes (20%, 30%, etcétera) sobre los valores ingresados, y realizar una salida.
