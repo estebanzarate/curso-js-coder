@@ -9,3 +9,5 @@ let nombre = 'Bart',
     eyes = 'BL',
     wt = 85,
     carnet = 'Nombre: ' + nombre + '. Dirección: ' + direccion + '. País: ' + pais + '.';
+
+console.log(carnet);
