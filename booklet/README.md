@@ -23,3 +23,7 @@
   - Solicitar al usuario un (1) nombre.
   - Si el mismo es igual a otro nombre almacenado en una variable, realizar una salida por alerta con el mensaje “Fui yo”. 
   - Caso contrario, la salida será “Yo no fui”.
+
+### ACTIVIDAD 2: Presionar Y
+  - Solicitar al usuario una (1) tecla.
+  - Si se presiona “y” (minúscula), o “Y” (mayúscula), realizar una salida por alerta con el mensaje “Correcto”. Caso contrario, la salida será “Error”.
