@@ -17,3 +17,9 @@
 ### ACTIVIDAD 5: Descuentos
   - Solicitar al usuario uno o más precios.
   - Luego, efectuar un descuento en porcentajes (20%, 30%, etcétera) sobre los valores ingresados, y realizar una salida.
+
+## 2
+### ACTIVIDAD 1: Yo no fui
+  - Solicitar al usuario un (1) nombre.
+  - Si el mismo es igual a otro nombre almacenado en una variable, realizar una salida por alerta con el mensaje “Fui yo”. 
+  - Caso contrario, la salida será “Yo no fui”.
