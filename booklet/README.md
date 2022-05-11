@@ -56,3 +56,7 @@
 ### ACTIVIDAD 3: Registro de alumnos
 - Solicitar al usuario la carga de diez (10) alumnos de forma consecutiva.
 - Luego realizar un única salida por alerta, con el listado de alumnos registrados.
+
+### ACTIVIDAD 4: El innombrable
+- Solicitar al usuario la carga de nombres de forma consecutiva,  hasta que se ingrese “Voldemort”.
+- Luego realizar un única salida por alerta, con todos los nombres ingresados.
