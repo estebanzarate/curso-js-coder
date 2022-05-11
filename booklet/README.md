@@ -45,3 +45,7 @@
 
 ### ACTIVIDAD 5: Vacío
 - Solicitar al usuario cuatro (4) productos de almacén. Si todos los elementos fueron cargados, realizar una única salida compuesta por el listado de productos. Caso contrario, la salida será “Error: Es necesario cargar todos los productos”.
+
+## 3
+### ACTIVIDAD 1: El pizarrón
+- Solicitar al usuario un (1) un número y un (1) texto. Efectuar una salida por alerta con el mensaje ingresado por cada repetición, hasta alcanzar el valor señalado por el usuario.
