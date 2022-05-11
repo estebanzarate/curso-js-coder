@@ -52,3 +52,7 @@
 
 ### ACTIVIDAD 2: El cuadrado ordinario
 - Solicitar al usuario un (1) un número. Emplear este valor para determinar la cantidad de repeticiones, y efectuar una salida por alerta con el mensaje “lado” en cada repetición. Pero si se alcanza un número de iteraciones mayor que cuatro (4), cancelar el ciclo.
+
+### ACTIVIDAD 3: Registro de alumnos
+- Solicitar al usuario la carga de diez (10) alumnos de forma consecutiva.
+- Luego realizar un única salida por alerta, con el listado de alumnos registrados.
