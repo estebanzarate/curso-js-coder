@@ -60,3 +60,10 @@
 ### ACTIVIDAD 4: El innombrable
 - Solicitar al usuario la carga de nombres de forma consecutiva,  hasta que se ingrese “Voldemort”.
 - Luego realizar un única salida por alerta, con todos los nombres ingresados.
+
+### ACTIVIDAD 5: Comprando productos
+- Solicitar al usuario un (1) número de forma consecutiva, hasta que se ingrese “ESC”. Generar una única salida compuesta por los siguientes productos, según el valor ingresado en cada ciclo:
+	- “Tomate” si es 1.
+	- “Papa” si es 2.
+	- “Carne” si es 3.
+	- “Pollo” si es 4.
