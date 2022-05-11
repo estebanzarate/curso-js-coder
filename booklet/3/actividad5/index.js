@@ -1,22 +1,21 @@
-let numero,
-    salida = '';
+let numero = prompt('Ingrese un número');
 
 while(numero != 'ESC') {
-    numero = prompt('Ingrese un número');
     switch(parseInt(numero)) {
         case 1:
-            salida += 'Tomate\n';
+            alert('Tomate');
             break;
         case 2:
-            salida += 'Papa\n';
+            alert('Papa');
             break;
         case 3:
-            salida += 'Carne\n';
+            alert('Carne');
             break;
         case 4:
-            salida += 'Pollo\n';
-        break;
+            alert('Pollo');
+            break;
     }
+    numero = prompt('Ingrese un número');
 }
 
 alert(salida);
