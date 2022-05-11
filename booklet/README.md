@@ -42,3 +42,6 @@
 	- “Presupuesto bajo” si está entre 0 y 1000.
 	- “Presupuesto medio” si está entre 1001 y 3000.
 	- “Presupuesto alto” si es  mayor que 3000.
+
+### ACTIVIDAD 5: Vacío
+- Solicitar al usuario cuatro (4) productos de almacén. Si todos los elementos fueron cargados, realizar una única salida compuesta por el listado de productos. Caso contrario, la salida será “Error: Es necesario cargar todos los productos”.
