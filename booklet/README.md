@@ -79,3 +79,7 @@
 ### ACTIVIDAD 2: Redondeo
 - Codificar una función que reciba un número decimal por parámetro, y lo retorne redondeado al entero más cercano. Para ello, puede emplearse  Math.round.
 - Luego invocar la función de forma iterativa cinco (5) veces, solicitando en cada ciclo un número al usuario.
+
+### ACTIVIDAD 3: Impuestos
+- Codificar una función con la siguiente cabecera: impuesto(precio, porcentaje). En ella, se retorna un valor numérico compuesto por el precio recibido, más la suma del porcentaje ingresado.
+- Luego invocar la función de forma iterativa cinco (5) veces, solicitando en cada ciclo un precio y porcentaje al usuario.
