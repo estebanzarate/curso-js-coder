@@ -68,10 +68,14 @@
 	- “Carne” si es 3.
 	- “Pollo” si es 4.
 
-## 2
+## 4
 ### ACTIVIDAD 1: Entradas y salidas
 - Codificar tres funciones:
 	- Una función entrada(), la cual solicite un valor al usuario y lo retorne.
 	- Una función procesamiento(valor), donde se transforme la entrada.
 	- Una función salida(valor), la cual mostrará el resultado por alerta.
 - Luego, invocar las tres funciones.
+
+### ACTIVIDAD 2: Redondeo
+- Codificar una función que reciba un número decimal por parámetro, y lo retorne redondeado al entero más cercano. Para ello, puede emplearse  Math.round.
+- Luego invocar la función de forma iterativa cinco (5) veces, solicitando en cada ciclo un número al usuario.
