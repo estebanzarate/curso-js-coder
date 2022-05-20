@@ -1,3 +1,32 @@
-body {
-    background-color: #000;
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-submit {
+    padding: .2rem .4rem;
+}
+
+.table-students {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-students th,
+td {
+    padding: .5rem;
+    border: 1px solid;
+    text-align: center;
+}
+
+.table-students th {
+    background-color: limegreen;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+
+<body class="body">
+    <section class="form-container">
+        <form id="form-add-student" class="form-add-student">
+            <input id="input-name" class="input" placeholder="Nombre" required>
+            <input id="input-lastname" class="input" placeholder="Apellido" required>
+            <input id="input-born" class="input" type="date" required>
+            <input type="submit" class="input input-submit" value="Agregar">
+        </form>
+    </section>
+    <section>
+        <table id="table-students" class="table-students">
+            <thead>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>FECHA DE NACIMIENTO</th>
+                </tr>
+            </thead>
+            <tbody id="table-students-body">
+
+            </tbody>
+        </table>
+    </section>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
