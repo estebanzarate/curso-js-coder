@@ -18,17 +18,19 @@
             <input class="input input-text" placeholder="Nombre" required>
             <input class="input input-text" placeholder="Apellido" required>
             <input type="date" class="input input-birth" required>
+            <input type="number" class="input input-dni" min="1" max="100000000" placeholder="DNI" required>
             <input type="tel" class="input input-tel" size="10" placeholder="Teléfono" required>
             <input type="submit" class="input input-submit" value="Agregar">
         </form>
     </section>
-    <section id="table-container" class="section">
+    <section class="section table-container">
         <table id="table-students" class="table-students">
             <thead>
                 <tr>
                     <th>NOMBRE</th>
                     <th>APELLIDO</th>
                     <th>FECHA DE NACIMIENTO</th>
+                    <th>DNI</th>
                     <th>TELEFONO</th>
                 </tr>
             </thead>

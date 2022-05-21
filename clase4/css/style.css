@@ -16,18 +16,18 @@
     padding: 1rem;
 }
 
-.form-container {
+.form-add-student {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .input {
-    margin: .2rem;
+    margin: .4rem;
 }
 
 .input:focus {
-    outline: 2px solid rgb(91, 96, 241);
+    outline: 4px solid rgba(91, 96, 241, 0.794);
     border: 2px solid transparent;
     border-radius: 2px;
 }
@@ -38,6 +38,11 @@
 }
 
 .input-birth {
+    height: 1.6rem;
+    padding: 0 .3rem;
+}
+
+.input-dni {
     height: 1.6rem;
     padding: 0 .3rem;
 }
@@ -65,19 +70,20 @@
     border-radius: 2px;
 }
 
-.table-students {
-    width: 100%;
-    border: none;
+.table-container {
+    display: flex;
+    justify-content: center;
 }
 
 .table-students th,
 td {
-    padding: .5rem;
+    width: 15rem;
+    padding: .4rem 1rem;
     border-radius: 3px;
     text-align: center;
 }
 
-.table-students thead tr {
+.table-students thead tr th {
     background-color: rgb(91, 96, 241);
 }
 
@@ -96,6 +102,25 @@ td {
 
 .table-students tbody td:hover {
     background-color: rgb(9, 52, 79);
-    color: rgb(181, 181, 181);
-    font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+    .form-add-student {
+        flex-direction: column;
+    }
+
+    .table-students th,
+    td {
+        padding: .4rem .6rem;
+        font-size: .8rem;
+    }
+
+    .input {
+        width: 100%;
+        height: 2rem;
+    }
+
+    .input-submit {
+        font-size: 1rem;
+    }
 }
