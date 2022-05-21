@@ -1,32 +1,101 @@
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding: 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 1rem;
 }
 
 .form-container {
-    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.input {
+    margin: .2rem;
+}
+
+.input:focus {
+    outline: 2px solid rgb(91, 96, 241);
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+.input-text {
+    height: 1.6rem;
+    padding-left: .3rem;
+}
+
+.input-birth {
+    height: 1.6rem;
+    padding: 0 .3rem;
+}
+
+.input-tel {
+    height: 1.6rem;
+    padding-left: .3rem;
+}
+
 .input-submit {
-    padding: .2rem .4rem;
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(91, 96, 241);
+    color: #fff;
+}
+
+.input-submit:hover {
+    cursor: pointer;
+}
+
+.input-submit:focus {
+    outline: none;
+    border: none;
+    border-radius: 2px;
 }
 
 .table-students {
     width: 100%;
-    border-collapse: collapse;
+    border: none;
 }
 
 .table-students th,
 td {
     padding: .5rem;
-    border: 1px solid;
+    border-radius: 3px;
     text-align: center;
 }
 
-.table-students th {
-    background-color: limegreen;
+.table-students thead tr {
+    background-color: rgb(91, 96, 241);
+}
+
+.table-students tbody tr:nth-child(odd) {
+    background-color: rgb(178, 180, 247);
+}
+
+.table-students tbody tr:nth-child(even) {
+    background-color: rgb(141, 144, 235);
+}
+
+.table-students tbody tr:hover {
+    background-color: rgb(48, 150, 214);
+    color: #fff;
+}
+
+.table-students tbody td:hover {
+    background-color: rgb(9, 52, 79);
+    color: rgb(181, 181, 181);
+    font-weight: 900;
 }
