@@ -12,10 +12,17 @@ export default class Tienda {
             return false;
         }
     }
+    esPropietario(nombre) {
+        if (nombre === this.nombre.toLowerCase()) {
+            return true
+        } else {
+            return false;
+        }
+    }
 }
 
-const tienda1 = new Tienda("Nombre Tienda 1", "Direccion 1", "Propietario 1", "Rubro 1");
-const tienda2 = new Tienda("Nombre Tienda 2", "Direccion 2", "Propietario 2", "Rubro 2");
-const tienda3 = new Tienda("Nombre Tienda 3", "Direccion 3", "Propietario 3", "Rubro 3");
+const tienda1 = new Tienda("Gabriel", "Direccion 1", "Propietario 1", "Rubro 1");
+const tienda2 = new Tienda("Ismael", "Direccion 2", "Propietario 2", "Rubro 2");
+const tienda3 = new Tienda("Uriel", "Direccion 3", "Propietario 3", "Rubro 3");
 
-export { tienda1 };
+export { tienda1, tienda2, tienda3 };
