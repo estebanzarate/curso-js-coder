@@ -1,4 +1,4 @@
-class Tienda {
+export default class Tienda {
     constructor(nombre, direccion, propietario, rubro) {
         this.nombre = nombre;
         this.direccion = direccion;

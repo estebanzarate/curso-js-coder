@@ -101,3 +101,7 @@
 	- Propietario de la tienda.
 	- Rubro de la tienda.
 - Luego invocar al menos tres (3) objetos usando esta clase.
+
+### ACTIVIDAD 2: Registro de tiendas
+- Solicitar al usuario el registro de cinco (5) tiendas.
+- Emplear la clase Tienda de la actividad 1, para instanciar los objetos en función de las entradas capturadas. Generar una única salida compuesta por la información de los objetos instanciados.
