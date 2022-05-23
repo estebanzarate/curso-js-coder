@@ -7,10 +7,10 @@ class Cliente {
     }
     transferirDinero(valor) {
         if (valor < this.presupuesto && valor > 0) {
-            return true;
-        } else {
-            return false;
+            this.presupuesto -= valor;
+            return valor;
         }
+        return false;
     }
 }
 

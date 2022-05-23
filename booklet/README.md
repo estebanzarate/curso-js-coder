@@ -129,3 +129,11 @@
 
 #### Notas actividad 5
 - Es posible verificar en un métòdo, usando un condicional, si la propiedad cumple con cierto valor antes de modificarla. Recordemos que una función retorna un  solo valor.
+
+
+## 6
+### ACTIVIDAD 1: El equipo
+- Declarar un array de cadenas, compuesto por  los cuatro (4) nombres pertenecientes a los integrantes de un equipo. Luego recorrer el array, e informar por alerta el nombre de cada jugador, así como la posición  que ocupa en la colección.
+
+#### Notas actividad 1
+- Cuando recorremos un array, empleamos un bucle (preferentemente un for o for...of) para acceder a los elementos de la colección uno a uno.

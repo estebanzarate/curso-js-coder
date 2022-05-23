@@ -33,9 +33,7 @@ const addStudent = e => {
         dni: $inputs[4].value
     }
     createStudent(student);
-    $inputs.forEach(el => {
-        el.value = "";
-    });
+    $formToAddStudent.reset();
     $inputs[0].focus();
 }
 
