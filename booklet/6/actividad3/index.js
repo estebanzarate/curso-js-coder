@@ -7,7 +7,7 @@ class Jugador {
     }
 }
 
-const jugadores = [];
+export const jugadores = [];
 
 const jugador1 = new Jugador('Nombre1', 1, 20, true);
 const jugador2 = new Jugador('Nombre2', 2, 20, false);
