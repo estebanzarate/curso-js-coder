@@ -138,8 +138,14 @@
 #### Notas actividad 1
 - Cuando recorremos un array, empleamos un bucle (preferentemente un for o for...of) para acceder a los elementos de la colección uno a uno.
 
-#### ACTIVIDAD 2: Carga el equipo
+### ACTIVIDAD 2: Carga el equipo
 - Declarar un array vacío, y cargarlo de forma dinámica solicitando al usuario nombres de forma consecutiva,  hasta que se ingrese “ESC”. Luego recorrer el array, e informar por alerta el nombre de cada jugador, así como la posición  que ocupa en la colección.
 
 #### Notas actividad 2
 - Usando while  y prompt podemos cargar una colección de forma dinámica. Es decir, agregar al array en cada iteración la entrada capturada, usando el método push.
+
+### ACTIVIDAD 3: Jugadores
+- Declarar una clase Jugador que permita registrar nombre, número de camiseta, edad, y si está lesionado. Luego instanciar al menos cinco (5) objetos usando esta clase, y asociarlos a un array.
+
+#### Notas actividad 3
+- El método push puede recibir un objeto por parámetro, el cual se asociará al array empleado. Es posible agregar más propiedades a la clase jugador.
